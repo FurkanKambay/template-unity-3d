@@ -97,10 +97,10 @@ Assets/TextMesh[[:space:]]Pro/**    linguist-generated
 
 # Exceptions
 *.bin.asset                         lfs !unity-yaml
-*NavMesh*.asset                     lfs !unity-yaml
-*OcclusionCullingData*.asset        lfs !unity-yaml
-*Terrain*.asset                     lfs !unity-yaml
-LightingData.asset                  lfs !unity-yaml
+Assets/**/*NavMesh*.asset           lfs !unity-yaml
+Assets/**/*OcclusionCulling*.asset  lfs !unity-yaml
+Assets/**/*Terrain*.asset           lfs !unity-yaml
+Assets/**/LightingData.asset        lfs !unity-yaml
 Assets/**.buildreport               !lfs unity-yaml
 
 # FMOD
