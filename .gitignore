@@ -47,8 +47,8 @@
 
 # JetBrains Rider
 .idea/
-!.idea/**/dictionaries/
 !.idea/**/tasks.xml
+!.idea/**/dictionaries/
 
 # Visual Studio
 .vs/
@@ -67,6 +67,7 @@ ExportedObj/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+!.vscode/dictionaries/
 
 # Blender
 *.blend1

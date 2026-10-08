@@ -210,7 +210,7 @@ Assets/**.buildreport               !lfs unity-yaml
 # Documents
 *.pdf                               lfs
 
-# Managed & native plug-ins (source files)
+# Native plug-ins (source files)
 *.c                                 text diff=cpp
 *.cc                                text diff=cpp
 *.cpp                               text diff=cpp
